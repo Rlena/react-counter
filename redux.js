@@ -55,6 +55,7 @@ const addCounter = {
 }
 
 // в dispatch передаем action
+// в store есть метод dispatch, в котором мы можем диспатчить новые action
 store.dispatch(addCounter)
 
 store.dispatch({ type: 'SUB'})
